@@ -141,7 +141,7 @@ class Game
 
     public function isTied(): bool
     {
-        return is_null($this->winner);  // && is_null($this->looser)
+        return is_null($this->winner); 
     }
 }
 
